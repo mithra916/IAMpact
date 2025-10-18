@@ -39,7 +39,7 @@ Suggests response actions based on alert context.
 
 
 ## Project Structure
-
+```
 IAMpact/
 │
 ├── data/
@@ -68,7 +68,7 @@ IAMpact/
 ├── .gitignore # Excludes unnecessary files (venv, large data, cache)
 ├── README.md # Project documentation (this file)
 └── requirements.txt # Python dependencies
-
+```
 
 ## Future Enhancements
 
