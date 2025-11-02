@@ -14,13 +14,13 @@ It combines Flask (Python) for backend, PostgreSQL for data storage, and a dynam
 ```
 
 ## Tech Stack
-
+```
 Layer	Technology
 Backend	Flask (Python 3.10+)
 Database	PostgreSQL
 Frontend	HTML, CSS, JavaScript, Chart.js
 AI Logic	Python-based heuristic reasoning (Agentic layer)
-
+```
 ## Project Structure
 ```
 iampact/
@@ -45,9 +45,10 @@ iampact/
 ```
 
 ## Future Enhancements
-
+```
 🔹 Integrate OpenAI API / LLM for contextual threat analysis
 🔹 Add authentication (admin vs analyst roles)
 🔹 Historical data archiving
 🔹 Email / Slack alerting
 🔹 SOC-style theme with dark mode and real-time websocket updates
+```
