@@ -41,7 +41,7 @@ SOC Dashboard Visualization
 ```
 
 Example Detection
-
+```
 Input CloudTrail event:
 
 {
@@ -53,7 +53,7 @@ Input CloudTrail event:
     "userName": "admin"
   }
 }
-
+```
 Output:
 
 Priority: HIGH
@@ -72,6 +72,7 @@ Recommendations:
 - Monitor additional IAM activity
 
 ## Project Structure
+```
 cloud_sec_intel/
 │
 ├── backend/
@@ -101,9 +102,9 @@ cloud_sec_intel/
 ├── docker-compose.yml
 ├── .gitignore
 └── README.md
-
+```
 ## Tech Stack
-
+```
 Backend
 Python
 FastAPI
@@ -115,10 +116,12 @@ Frontend
 React
 Vite
 JavaScript
-
+```
 
 Custom SOC dashboard UI
+
 ▶ How to Run Locally
+```
 1. Clone the Repository
 git clone https://github.com/mithra916/IAMpact.git
 cd IAMpact
@@ -147,11 +150,11 @@ npm run dev
 Frontend will run at:
 
 http://localhost:5173
-
+```
 ## Test Logs
 
 Paste this into the dashboard:
-
+```
 [
   {
     "eventTime": "2026-05-26T10:20:00Z",
@@ -181,8 +184,9 @@ Paste this into the dashboard:
     }
   }
 ]
- 
+ ```
 ## Current Dashboard Panels
+```
 Total logs analyzed
 Alerts detected
 Highest risk score
@@ -193,9 +197,9 @@ IAM action breakdown
 Top security alert
 Detected alerts list
 AI recommendations
-
+```
 ## Detection Logic
-
+```
 IAMpact currently uses rule-based security scoring.
 
 Risk factors include:
@@ -219,11 +223,11 @@ DeleteTrail
 StopLogging
 AssumeRole
 ConsoleLogin
-
+```
 ### Roadmap
 
 Planned future upgrades:
-
+```
 Real AWS CloudTrail integration
 STS AssumeRole-based AWS account connection
 Multi-account monitoring
@@ -234,11 +238,11 @@ ML-based anomaly detection
 PostgreSQL alert storage
 SOC analyst case management
 Slack or email notifications
-
+```
 ## Project Status
 
 Current status:
-
+```
 ✅ Working CloudTrail Log Analyzer
 ✅ FastAPI backend
 ✅ React SOC dashboard
@@ -247,7 +251,7 @@ Current status:
 🚧 Real-time AWS integration planned
 🚧 Threat intelligence enrichment planned
 🚧 ML anomaly detection planned
-
+```
 ```
 Author
 Loga Mithra R
