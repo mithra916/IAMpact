@@ -1,0 +1,74 @@
+:root{
+  --bg:#0b1220;
+  --card:#0f1724;
+  --muted:#94a3b8;
+  --accent:#3b82f6;
+  --danger:#ef4444;
+  --glass:rgba(255,255,255,0.03);
+}
+*{box-sizing:border-box;font-family:Inter,system-ui,sans-serif}
+body{margin:0;background:linear-gradient(180deg,var(--bg),#071023);color:#e6eef8}
+.topbar{padding:20px 28px;border-bottom:1px solid rgba(255,255,255,0.05)}
+.topbar h1{margin:0;font-size:24px;color:var(--accent)}
+.subtitle{margin:4px 0 0;color:var(--muted);font-size:13px}
+.container{padding:20px;max-width:1100px;margin:0 auto}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:18px}
+.card{background:var(--card);padding:14px;border-radius:12px;box-shadow:0 6px 18px rgba(4,6,12,0.6)}
+.card-title{font-size:12px;color:var(--muted)}
+.big-number{font-size:28px;margin-top:8px;font-weight:700}
+.panels{display:grid;grid-template-columns:1fr 360px;gap:14px}
+.panel{background:var(--card);padding:14px;border-radius:12px;min-height:200px}
+.panel h3{margin:0 0 8px;color:var(--accent)}
+.list{list-style:none;padding:0;margin:0;max-height:360px;overflow:auto}
+.list li{padding:10px;border-radius:8px;background:var(--glass);margin-bottom:8px;font-size:13px}
+.list li .meta{display:block;color:var(--muted);font-size:12px;margin-top:6px}
+.chart-panel{margin-top:16px;background:var(--card);padding:14px;border-radius:12px}
+footer.footer{margin-top:18px;color:var(--muted);font-size:12px;text-align:center}
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.filter-select {
+  background-color: #111827;
+  color: #e5e7eb;
+  border: 1px solid #374151;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+.filter-select:hover {
+  background-color: #1f2937;
+}
+
+.alert-item, .insight-item {
+  padding: 8px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.alert-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.alert-meta {
+  font-size: 0.85rem;
+  color: #9ca3af;
+  margin-top: 3px;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.chart-header select {
+  background: #111827;
+  color: white;
+  border: 1px solid #374151;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
