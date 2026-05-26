@@ -22,8 +22,7 @@ Current version works as an interactive **CloudTrail Log Analyzer** where users 
 ---
 
 ## How It Works
-
-```text
+```
 CloudTrail Logs
       ↓
 Paste into Dashboard
@@ -39,7 +38,8 @@ Alert Prioritization
 AI Recommendation Engine
       ↓
 SOC Dashboard Visualization
-    
+```
+
 Example Detection
 
 Input CloudTrail event:
