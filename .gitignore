@@ -1,0 +1,40 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+
+# Data / generated outputs
+data/
+*.csv
+*.jsonl
+agent_log.jsonl
+agent_insights.json
+final_alerts.csv
+scored_logs.csv
+enriched_logs.csv
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Secrets
+*.pem
+*.key
+*.crt
+aws_credentials
+credentials
